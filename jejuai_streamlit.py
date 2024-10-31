@@ -72,7 +72,7 @@ if qu !='':
         #     print("답변 정확도 : ", confidence)
 
     # CHANGE THIS to do something different with the result
-    st.write("분류 : '%s'(%d%%의 정확도)" % (label, confidence))
+        st.write("분류 : '%s'(%d%%의 정확도)" % (label, confidence))
     # print("분류:'%s'(%d%%의 정확도)" % (label, confidence))
     # print("result: '%s' with %d%% confidence" % (label, confidence))
 else:
